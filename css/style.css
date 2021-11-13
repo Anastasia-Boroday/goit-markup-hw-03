@@ -9,6 +9,21 @@
     --second-background-color:#F5F4FA;
     --main-background-color: #2F303A;
 }
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-color: yellow;
+}
 body {
     font-family: "Roboto",sans-serif;
     color: var(--primary-color);
@@ -39,6 +54,10 @@ body {
     color: var(--hero-title-color);
     background-color: var(--accent-color);
 }
+
+
+
+
 /* -------------------header--------------------------- */
 .header-logo {
     font-family: Raleway;
