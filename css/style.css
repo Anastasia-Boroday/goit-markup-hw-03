@@ -107,20 +107,28 @@ body {
     color: var(--hero-title-color);
 }
 .hero-btn {
+    display: inline-block;
+    border-radius: 4px;
+    border: 0px;
+    min-width: 200px;   
+    padding: 10px 32px;
+
     font-style: normal;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex; 
+    
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--hero-title-color);
     cursor: pointer;
     background-color: var(--accent-color);
-    border-radius: 4px;
-    border: 0px;
+   
+    
+
+    
 }
 /* -------------------about--------------------------- */
 .about-item-title {
@@ -218,6 +226,11 @@ body {
 
 /* -------------------PORTFOLIO.HTML--------------------------- */
 .filter-btn {
+    display: inline-block;
+    border-radius: 4px;
+    border: 0px;
+    padding: 6px 22px;
+
     background-color: var(--second-background-color);
     font-family: inherit;
     font-style: normal;
@@ -229,8 +242,7 @@ body {
 
     color: var(--main-title-color);
     cursor: pointer;
-    border-radius: 4px;
-    border: 0px;
+
 }
 .filter-btn:hover,
 .filter-btn:focus {
