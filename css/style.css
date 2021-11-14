@@ -360,8 +360,7 @@ img{
 } */
 
 .filter-container-title {
-    /* margin-top: 20px;
-    margin-bottom: 4px; */
+    margin-bottom: 4px; 
 
     font-style: normal;
     font-weight: 700;
@@ -378,4 +377,7 @@ img{
 }
 .filter-container-link {
     background-color: var(--hero-title-color);
+}
+.filter-box{
+    padding: 20px 24px;
 }
