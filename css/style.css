@@ -10,6 +10,7 @@
     --main-background-color: #2F303A;
     --border-color: #ECECEC;
     --border-color-filter: #EEEEEE;
+    --box-shadow-comand:0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2)
 }
 
 p, h1, h2, h3, h4, h5, h6{
@@ -234,7 +235,7 @@ img{
 .comand-item {
     background-color: var(--hero-title-color);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow-comand);
 }
 .comand-item:not(:nth-child(4n)){
     margin-right: 30px;
