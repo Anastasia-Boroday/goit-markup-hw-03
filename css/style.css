@@ -5,6 +5,7 @@
     --main-title-color:#212121;
     --hero-title-color: #ffffff;
     --footer-tel-mail-text-color: rgba(255, 255, 255, 0,6);
+    --hero-btn-color: #188CE8;
 
     --second-background-color:#F5F4FA;
     --main-background-color: #2F303A;
@@ -174,7 +175,11 @@ img{
     color: var(--hero-title-color);
     cursor: pointer;
     background-color: var(--accent-color);
-    
+  
+}
+.hero-btn:focus,
+.hero-btn:hover{
+    background-color: var(--hero-btn-color) ;
 }
 /* -------------------about--------------------------- */
 .about-list{
