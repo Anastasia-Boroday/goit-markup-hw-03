@@ -290,9 +290,9 @@ img{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--hero-title-color);
-}
-.footer-adress-item + .footer-adress-item{
-    margin-top: 9px;
+ }
+.footer-adress-item:not(:last-child){
+    margin-bottom: 9px;
 }
 .footer-logo-first{
     color: var(--accent-color);
@@ -331,7 +331,7 @@ img{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 .filter-btn {
